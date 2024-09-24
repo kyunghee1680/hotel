@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: notification
-          image: "username/notification:latest"
+          image: "songkyunghee/notification:0924"
           ports:
             - containerPort: 8080
           readinessProbe:
