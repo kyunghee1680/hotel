@@ -21,69 +21,13 @@
 
 ## 클라우드 네이티브 운영(PaaS)
 ### 클라우드 배포 - Container 운영
+- 도커라이징
+![dockerhub](https://github.com/user-attachments/assets/6bbc2181-f081-4c90-9335-4bbc6faff9ee)
 
-```
-cd gateway
-mvn spring-boot:run
-```
+- 클러스터에 배포
+![캡처2](https://github.com/user-attachments/assets/7b7f6c5d-9e85-4c05-8b02-4df375b5b56b)
 
-## Test by API
-- hotel
-```
- http :8088/hotels id="id" roomCount="roomCount" hotelName="hotelName" status="status" 
-```
-- reservation
-```
- http :8088/hotelReservations id="id" reservationId="reservationId" userId="userId" status="status" roomCount="roomCount" startDate="startDate" endDate="endDate" price="price" hotelName="hotelName" address="address" roomNumber="roomNumber" 
-```
-- payment
-```
- http :8088/payments id="id" reservationId="reservationId" status="status" price="price" hotelName="hotelName" payDt="payDt" 
-```
-- mypage
-```
-```
-- notification
-```
-```
+- 서비스 확인
+![서비스 확인](https://github.com/user-attachments/assets/ab2f680a-4308-4f6d-9b62-9d8fe814a0e8)
 
-
-## Run the frontend
-```
-cd frontend
-npm i
-npm run serve
-```
-
-## Test by UI
-Open a browser to localhost:8088
-
-## Required Utilities
-
-- httpie (alternative for curl / POSTMAN) and network utils
-```
-sudo apt-get update
-sudo apt-get install net-tools
-sudo apt install iputils-ping
-pip install httpie
-```
-
-- kubernetes utilities (kubectl)
-```
-curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
-sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
-```
-
-- aws cli (aws)
-```
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-unzip awscliv2.zip
-sudo ./aws/install
-```
-
-- eksctl 
-```
-curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
-sudo mv /tmp/eksctl /usr/local/bin
-```
 
