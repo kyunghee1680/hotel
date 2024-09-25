@@ -1,33 +1,27 @@
-# 
+# 클라우드 네이티브 Final Project
 
-## Model
-www.msaez.io/#/storming/product-kyunghee
-
-## Before Running Services
-### Make sure there is a Kafka server running
-```
-cd kafka
-docker-compose up
-```
-- Check the Kafka messages:
-```
-cd infra
-docker-compose exec -it kafka /bin/bash
-cd /bin
-./kafka-console-consumer --bootstrap-server localhost:9092 --topic
-```
-
-## Run the backend micro-services
-See the README.md files inside the each microservices directory:
-
-- hotel
-- reservation
-- payment
-- mypage
-- notification
+## 클라우드 네이티브 아키텍처(IaaS)
+![아키텍처](https://github.com/user-attachments/assets/16c92016-bce8-4ad8-b589-283e92cdd41a)
 
 
-## Run API Gateway (Spring Gateway)
+## 클라우드 네이티브 모델링(Biz.)
+### 숙소 예약 서비스
+![이벤트 스토밍](https://github.com/user-attachments/assets/b8917c7b-91ba-46ff-9534-16f1d8bcfacd)
+
+
+## 클라우드 네이티브 개발 MSA(Dev.)
+### 분산트랜잭션 - Saga & 보상처리 - Compensation
+- Hotel Reservation Cancel 로직
+- Payment Cancel 로직 
+### 단일 진입점 - Gateway
+![게이트웨이](https://github.com/user-attachments/assets/7f60a710-0ff7-44e7-96f2-a4f9dae1ba71)
+### 분산 데이터 프로젝션 - CQRS
+![CQRS](https://github.com/user-attachments/assets/98aaddd0-b8b0-49cb-885f-401685334b71)
+![CQRS2](https://github.com/user-attachments/assets/c7e7bb23-230f-4e34-b48d-5f4201f3dd7a)
+
+## 클라우드 네이티브 운영(PaaS)
+### 클라우드 배포 - Container 운영
+
 ```
 cd gateway
 mvn spring-boot:run
