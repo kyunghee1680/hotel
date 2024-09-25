@@ -4,19 +4,9 @@
 ![아키텍처](https://github.com/user-attachments/assets/16c92016-bce8-4ad8-b589-283e92cdd41a)
 
 
-## Before Running Services
-### Make sure there is a Kafka server running
-```
-cd kafka
-docker-compose up
-```
-- Check the Kafka messages:
-```
-cd infra
-docker-compose exec -it kafka /bin/bash
-cd /bin
-./kafka-console-consumer --bootstrap-server localhost:9092 --topic
-```
+## 클라우드 네이티브 모델링(Biz.)
+![이벤트 스토밍](https://github.com/user-attachments/assets/b8917c7b-91ba-46ff-9534-16f1d8bcfacd)
+
 
 ## Run the backend micro-services
 See the README.md files inside the each microservices directory:
