@@ -9,17 +9,18 @@
 ![이벤트 스토밍](https://github.com/user-attachments/assets/b8917c7b-91ba-46ff-9534-16f1d8bcfacd)
 
 
-## Run the backend micro-services
-See the README.md files inside the each microservices directory:
+## 클라우드 네이티브 개발 MSA(Dev.)
+### 분산트랜잭션 - Saga & 보상처리 - Compensation
+- Hotel Reservation Cancel 로직
+- Payment Cancel 로직 
+### 단일 진입점 - Gateway
+![게이트웨이](https://github.com/user-attachments/assets/7f60a710-0ff7-44e7-96f2-a4f9dae1ba71)
+### 분산 데이터 프로젝션 - CQRS
+![CQRS](https://github.com/user-attachments/assets/98aaddd0-b8b0-49cb-885f-401685334b71)
+![CQRS2](https://github.com/user-attachments/assets/c7e7bb23-230f-4e34-b48d-5f4201f3dd7a)
 
-- hotel
-- reservation
-- payment
-- mypage
-- notification
+## 클라우드 네이티브 운영(PaaS)
 
-
-## Run API Gateway (Spring Gateway)
 ```
 cd gateway
 mvn spring-boot:run
