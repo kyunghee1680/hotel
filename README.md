@@ -27,6 +27,8 @@
 
 - 클러스터에 배포
 
+![캡처3](https://github.com/user-attachments/assets/f12c89d4-6a6a-48b8-aed0-b5038e71ab08)
+
 ![캡처2](https://github.com/user-attachments/assets/7b7f6c5d-9e85-4c05-8b02-4df375b5b56b)
 
 - 서비스 확인
