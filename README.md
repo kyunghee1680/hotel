@@ -5,6 +5,7 @@
 
 
 ## 클라우드 네이티브 모델링(Biz.)
+### 숙소 예약 서비스
 ![이벤트 스토밍](https://github.com/user-attachments/assets/b8917c7b-91ba-46ff-9534-16f1d8bcfacd)
 
 
