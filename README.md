@@ -1,7 +1,7 @@
 # 클라우드 네이티브 Final Project
 
 ## 클라우드 네이티브 아키텍처(IaaS)
-![MSA 아키텍처 구성도](./프로젝트 이미지/아키텍처.PNG)
+![아키텍처](https://github.com/user-attachments/assets/16c92016-bce8-4ad8-b589-283e92cdd41a)
 
 
 ## Before Running Services
