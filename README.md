@@ -22,12 +22,15 @@
 ## 클라우드 네이티브 운영(PaaS)
 ### 클라우드 배포 - Container 운영
 - 도커라이징
+
 ![dockerhub](https://github.com/user-attachments/assets/6bbc2181-f081-4c90-9335-4bbc6faff9ee)
 
 - 클러스터에 배포
+
 ![캡처2](https://github.com/user-attachments/assets/7b7f6c5d-9e85-4c05-8b02-4df375b5b56b)
 
 - 서비스 확인
+
 ![서비스 확인](https://github.com/user-attachments/assets/ab2f680a-4308-4f6d-9b62-9d8fe814a0e8)
 
 
