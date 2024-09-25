@@ -35,4 +35,6 @@
 
 ![서비스 확인](https://github.com/user-attachments/assets/ab2f680a-4308-4f6d-9b62-9d8fe814a0e8)
 
+- CI/CD
 
+![캡처4](https://github.com/user-attachments/assets/02f286f6-0968-4fb5-8ca0-132d92f3a8d5)
